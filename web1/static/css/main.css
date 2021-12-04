@@ -2164,7 +2164,7 @@ tr.visible-print {
     right: -64%
 }
 
-.home .container>.home .cv-btn {
+.home .cv-btn {
     text-align: center;
     text-transform: uppercase;
     margin-top: 85px
@@ -2312,7 +2312,6 @@ tr.visible-print {
 }
 
 .about .author-info .info .author-pic img {
-    align-items: baseline;
     border: 2px solid #eee
 }
 
