@@ -2230,8 +2230,7 @@ tr.visible-print {
 .about .extra-info ul>li {
     padding-left: 30px;
     line-height: 2.071428571428571;
-    position: relative;
-    text-align: center
+    position: relative
 }
 
 .about .extra-info ul>li:before {
