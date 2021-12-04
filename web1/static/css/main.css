@@ -2814,7 +2814,7 @@ span.invalid-error {
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:900px) {
     .home .big-head {
         font-size: 57.6px
     }
