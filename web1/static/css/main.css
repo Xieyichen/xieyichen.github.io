@@ -2164,13 +2164,6 @@ tr.visible-print {
     right: -64%
 }
 
-.home .container {
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 40px;
-    width: 600px
-}
-
 .home .cv-btn {
     text-align: center;
     text-transform: uppercase;
