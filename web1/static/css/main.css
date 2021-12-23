@@ -2978,42 +2978,37 @@ span.invalid-error {
     width: 100%
 }
 
-.site-logo {
-    display: inline-block;
-    float: left;
-    margin-top: 5px;
-    width: 500px
-}
-
-.site-logo img {
-    max-width: 50%;
-    width: 70%
-}
-
-.main-nav {
-    padding-left: 0;
+.container .main-nav {
+    padding-left: 50px;
     list-style: none;
-    float: right;
-    margin-top: 22px
+    margin: 0;
+    float: left
 }
 
-.main-nav li {
-    display: inline-block;
-    margin-right: 25px
+.container .main-nav li {
+    display: inline;
+    margin-right: 25px;
+    list-style: none
 }
 
-.main-nav li:last-child {
+.container .main-nav li:last-child {
+    display: inline;
     margin-right: 0
 }
 
-.main-nav li>a {
-    font-weight: 800;
+.container .main-nav li>a {
+    display: inline-block;
+    font-weight: 400;
     text-transform: uppercase;
-    text-shadow: inset 1px 1px rgba(155, 155, 155, .2)
+    text-shadow: inset 1px 1px rgba(216, 208, 208, 0.384);
+    font-size: 16px;
+    margin-top: 20px;
+    list-style: none;
+    color: rgba(122, 120, 128, 0.712)
 }
 
-.main-nav li>a:before {
-    font-size: 30px
+.container .main-nav li>a:before {
+    font-size: 60px
 }
 
 .main-nav .inner-nav {
@@ -3040,7 +3035,7 @@ span.invalid-error {
 
 .main-nav .inner-nav>li>a {
     color: #4c4c4c;
-    font-size: 14px;
+    font-size: 20px;
     border-bottom: 1px solid #eee;
     display: block;
     padding: 15px;
@@ -3092,9 +3087,9 @@ span.invalid-error {
 }
 
 .page-foot .copyright {
-    float: left;
+    text-align: center;
     margin-top: 42px;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .page-foot .socials {
